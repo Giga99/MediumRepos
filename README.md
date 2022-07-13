@@ -4,6 +4,7 @@
 
 ## Table of contents:
 > * [2 Ways to Request Permissions in Jetpack Compose](#permissions)
+> * [Implement Horizontal and Vertical ViewPager in Jetpack Compose](#viewpager)
 
 
 ## Permissions
@@ -11,3 +12,9 @@
 Demo application that shows how to request permissions in two different ways, by using default built in features and by using accompanist library
 
 [Article link](https://medium.com/@igorstevanovic99/jetpack-compose-request-permissions-in-two-ways-fd81c4a702c)
+
+## ViewPager
+
+Demo application that shows how to implement ViewPager in Jetpack Compose by using the accompanist library
+
+[Article link]()
