@@ -8,6 +8,6 @@
 
 ## Permissions
 
-Demo application for Medium article that shows how to request permissions in two different ways
+Demo application that shows how to request permissions in two different ways, by using default built in features and by using accompanist library
 
 [Article link](https://medium.com/@igorstevanovic99/jetpack-compose-request-permissions-in-two-ways-fd81c4a702c)
