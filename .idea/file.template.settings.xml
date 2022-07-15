@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="Jetpack Compose Screen.kt" file-name="${NAME}Screen.kt" reformat="true" live-template-enabled="false" />
+      <template name="Presentation Layer.kt" file-name="${NAME}Screen.kt" reformat="true" live-template-enabled="false">
+        <template name="Presentation Layer.kt.child.0.kt" file-name="${NAME}ViewModel.kt" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="Presentation Layer.kt.child.0.kt" file-name="${NAME}ViewModel.kt" reformat="true" live-template-enabled="false" />
+    </default_templates>
+  </component>
+</project>
