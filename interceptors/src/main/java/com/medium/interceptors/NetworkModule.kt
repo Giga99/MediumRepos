@@ -52,10 +52,10 @@ object NetworkModule {
     @Singleton
     @Provides
     fun provideRetrofit(
-        okHttpClient: Lazy<OkHttpClient>
+        okHttpClient: OkHttpClient
     ): Retrofit = Retrofit.Builder()
         .baseUrl("BASE_URL")
-        .callFactory { okHttpClient.get().newCall(it) }
+        .client(okHttpClient)
         .addConverterFactory(MoshiConverterFactory.create())
         .build()
 }
