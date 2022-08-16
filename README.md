@@ -24,4 +24,4 @@ Demo application that shows how to implement ViewPager in Jetpack Compose by usi
 
 Demo application that shows how you can use OkHttp Interceptors to add and refresh access token
 
-[Article link]()
+[Article link](https://betterprogramming.pub/android-access-token-logic-with-retrofit-okhttp-interceptors-740ea48547a0)
