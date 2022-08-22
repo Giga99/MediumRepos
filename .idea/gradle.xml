@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/bottomsheet" />
             <option value="$PROJECT_DIR$/interceptors" />
             <option value="$PROJECT_DIR$/permissions" />
             <option value="$PROJECT_DIR$/viewpager" />

@@ -16,3 +16,4 @@ rootProject.name = "MediumRepos"
 include ':permissions'
 include ':viewpager'
 include ':interceptors'
+include ':bottomsheet'
