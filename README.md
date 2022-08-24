@@ -31,4 +31,4 @@ Demo application that shows how you can use OkHttp Interceptors to add and refre
 
 Demo application that shows how to implement BottomSheet r in Jetpack Compose
 
-[Article link]()
+[Article link](https://betterprogramming.pub/implement-bottom-sheet-in-jetpack-compose-d6472e8eaf2e)
