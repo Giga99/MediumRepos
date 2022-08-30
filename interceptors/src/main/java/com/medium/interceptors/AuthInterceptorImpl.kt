@@ -15,20 +15,12 @@ class AuthInterceptorImpl @Inject constructor(
         val request = chain.request()
         var accessToken = pref.getAccessToken()
 
-        if (accessToken.isNullOrBlank()) {
-            accessToken = refreshToken()
-            if (accessToken.isNullOrBlank()) {
-                authRepository.logout()
-                return chain.proceed(request)
-            }
-        }
-
-        val response = chain.proceed(newRequestWithAccessToken(accessToken, request))
+        val response = chain.proceed(newRequestWithAccessToken(accessToken ?: "", request))
 
         if (response.code == HttpURLConnection.HTTP_UNAUTHORIZED) {
             val newAccessToken = pref.getAccessToken()
             if (newAccessToken != accessToken) {
-                return chain.proceed(newRequestWithAccessToken(accessToken, request))
+                return chain.proceed(newRequestWithAccessToken(accessToken ?: "", request))
             } else {
                 accessToken = refreshToken()
                 if (accessToken.isNullOrBlank()) {
