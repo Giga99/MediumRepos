@@ -15,12 +15,12 @@ class AuthInterceptorImpl @Inject constructor(
         val request = chain.request()
         var accessToken = pref.getAccessToken()
 
-        val response = chain.proceed(newRequestWithAccessToken(accessToken ?: "", request))
+        val response = chain.proceed(newRequestWithAccessToken(accessToken, request))
 
         if (response.code == HttpURLConnection.HTTP_UNAUTHORIZED) {
             val newAccessToken = pref.getAccessToken()
             if (newAccessToken != accessToken) {
-                return chain.proceed(newRequestWithAccessToken(accessToken ?: "", request))
+                return chain.proceed(newRequestWithAccessToken(accessToken, request))
             } else {
                 accessToken = refreshToken()
                 if (accessToken.isNullOrBlank()) {
@@ -34,7 +34,7 @@ class AuthInterceptorImpl @Inject constructor(
         return response
     }
 
-    private fun newRequestWithAccessToken(accessToken: String, request: Request): Request =
+    private fun newRequestWithAccessToken(accessToken: String?, request: Request): Request =
         request.newBuilder()
             .header("Authorization", "Bearer $accessToken")
             .build()
