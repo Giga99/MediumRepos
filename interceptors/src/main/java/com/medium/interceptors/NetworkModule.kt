@@ -2,7 +2,6 @@ package com.medium.interceptors
 
 import android.content.Context
 import android.content.SharedPreferences
-import dagger.Lazy
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -36,10 +35,19 @@ object NetworkModule {
 
     @Singleton
     @Provides
-    fun provideAuthInterceptorImpl(
+    fun provideSessionManager(
         appSharedPreferences: AppSharedPreferences,
         authRepository: AuthRepository
-    ): AuthInterceptorImpl = AuthInterceptorImpl(appSharedPreferences, authRepository)
+    ): SessionManager = SessionManager(
+        pref = appSharedPreferences,
+        authRepository = authRepository
+    )
+
+    @Singleton
+    @Provides
+    fun provideAuthInterceptorImpl(
+        sessionManager: SessionManager
+    ): AuthInterceptorImpl = AuthInterceptorImpl(sessionManager = sessionManager)
 
     @Singleton
     @Provides

@@ -8,8 +8,4 @@ class AuthRepositoryImpl @Inject constructor() : AuthRepository {
         /* .... */
         return ""
     }
-
-    override fun logout() {
-        /* .... */
-    }
 }
