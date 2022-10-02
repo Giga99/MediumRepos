@@ -7,6 +7,7 @@
 > * [Implement Horizontal and Vertical ViewPager in Jetpack Compose](#viewpager)
 > * [Android Access Token Logic with Retrofit OkHttp Interceptors](#interceptors)
 > * [Implement Bottom Sheet in Jetpack Compose](#bottomsheet)
+> * [Integrate Google Maps into the Jetpack Compose app](#maps)
 
 
 ## Permissions
@@ -29,6 +30,12 @@ Demo application that shows how you can use OkHttp Interceptors to add and refre
 
 ## BottomSheet
 
-Demo application that shows how to implement BottomSheet r in Jetpack Compose
+Demo application that shows how to implement BottomSheet in Jetpack Compose
 
 [Article link](https://betterprogramming.pub/implement-bottom-sheet-in-jetpack-compose-d6472e8eaf2e)
+
+## Maps
+
+Demo application that shows how to implement GoogleMaps in Jetpack Compose
+
+[Article link]()
