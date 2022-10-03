@@ -39,7 +39,7 @@ Demo application that shows how to implement BottomSheet in Jetpack Compose
 
 Demo application that shows how to implement GoogleMaps in Jetpack Compose
 
-[Article link]()
+[Article link](https://medium.com/p/c2710a226af2#6f49-9d05d20af70b)
 
 ## Navigation
 
