@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/bottomsheet" />
             <option value="$PROJECT_DIR$/interceptors" />
             <option value="$PROJECT_DIR$/maps" />
+            <option value="$PROJECT_DIR$/navigation" />
             <option value="$PROJECT_DIR$/permissions" />
             <option value="$PROJECT_DIR$/viewpager" />
           </set>
