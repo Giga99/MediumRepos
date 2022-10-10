@@ -9,6 +9,7 @@
 > * [Implement Bottom Sheet in Jetpack Compose](#bottomsheet)
 > * [Integrate Google Maps into the Jetpack Compose app](#maps)
 > * [Jetpack Compose Clean Navigation](#navigation)
+> * [Jetpack Compose Swipe to Refresh](#swipetorefresh)
 
 
 ## Permissions
@@ -46,3 +47,9 @@ Demo application that shows how to implement GoogleMaps in Jetpack Compose
 Demo application that shows how to implement Clean Navigation in Jetpack Compose
 
 [Article link](https://betterprogramming.pub/jetpack-compose-clean-navigation-94b386f7a076)
+
+## Swipe-to-Refresh
+
+Demo application that shows how to implement Swipe-to-Refresh and Placeholders in Jetpack Compose
+
+[Article link]()
