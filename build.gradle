@@ -21,10 +21,15 @@ buildscript {
         // Moshi
         moshiVersion = '1.13.0'
 
+        // Coil
+        coilVersion = '2.2.2'
+
         // Accompanist
         accompanistPermissionsVersion = '0.23.1'
         accompanistPagerVersion = '0.25.1'
         accompanistPagerIndicatorsVersion = '0.25.1'
+        accompanistSwipeToRefreshVersion = '0.25.1'
+        accompanistPlaceholderVersion = '0.25.1'
 
         // Google Services
         playServicesVersion = '18.1.0'
