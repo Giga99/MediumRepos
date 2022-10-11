@@ -9,7 +9,7 @@
 > * [Implement Bottom Sheet in Jetpack Compose](#bottomsheet)
 > * [Integrate Google Maps into the Jetpack Compose app](#maps)
 > * [Jetpack Compose Clean Navigation](#navigation)
-> * [Jetpack Compose Swipe to Refresh](#swipetorefresh)
+> * [Jetpack Compose Swipe to Refresh](#swipe-to-refresh)
 
 
 ## Permissions
