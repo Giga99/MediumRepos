@@ -52,4 +52,4 @@ Demo application that shows how to implement Clean Navigation in Jetpack Compose
 
 Demo application that shows how to implement Swipe-to-Refresh and Placeholders in Jetpack Compose
 
-[Article link]()
+[Article link](https://betterprogramming.pub/jetpack-compose-swipe-to-refresh-1d93775970e8)
