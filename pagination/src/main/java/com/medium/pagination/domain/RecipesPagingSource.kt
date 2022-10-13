@@ -4,7 +4,7 @@ import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import javax.inject.Inject
 
-class RecipesPagingSource @Inject constructor(
+class RecipesPagingSource(
     private val recipesRepository: RecipesRepository
 ) : PagingSource<Int, RecipeModel>() {
 
