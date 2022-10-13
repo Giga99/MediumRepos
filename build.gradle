@@ -35,6 +35,9 @@ buildscript {
         playServicesVersion = '18.1.0'
         mapsComposeVersion = '2.7.2'
 
+        // Paging 3
+        pagingVersion = '1.0.0-alpha16'
+
         // Tests
         junitVersion = '4.13.2'
         junitExtVersion = '1.1.3'
