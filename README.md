@@ -10,6 +10,7 @@
 > * [Integrate Google Maps into the Jetpack Compose app](#maps)
 > * [Jetpack Compose Clean Navigation](#navigation)
 > * [Jetpack Compose Swipe to Refresh](#swipe-to-refresh)
+> * [Jetpack Compose Pagination](#pagination)
 
 
 ## Permissions
@@ -53,3 +54,9 @@ Demo application that shows how to implement Clean Navigation in Jetpack Compose
 Demo application that shows how to implement Swipe-to-Refresh and Placeholders in Jetpack Compose
 
 [Article link](https://betterprogramming.pub/jetpack-compose-swipe-to-refresh-1d93775970e8)
+
+## Pagination
+
+Demo application that shows how to implement Pagination in Jetpack Compose
+
+[Article link]()
