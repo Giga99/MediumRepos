@@ -18,10 +18,13 @@ class RecipesPagingSource @Inject constructor(
             val size = params.loadSize
             val from = page * size
             val data = recipesRepository.getRecipes(from = from, size = size)
+            val itemsAfter = data.count - from + data.results.size
             LoadResult.Page(
                 data = data.results,
                 prevKey = if (page == 0) null else page - 1,
-                nextKey = if (data.count < size) null else page + 1
+                nextKey = if (data.results.isEmpty()) null else page + 1,
+                itemsAfter = if (itemsAfter > size) size else itemsAfter.toInt(),
+                itemsBefore = from
             )
         } catch (e: Exception) {
             LoadResult.Error(e)

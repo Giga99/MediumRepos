@@ -18,6 +18,9 @@ import androidx.paging.LoadState
 import androidx.paging.compose.collectAsLazyPagingItems
 import androidx.paging.compose.items
 import coil.compose.rememberAsyncImagePainter
+import com.google.accompanist.placeholder.PlaceholderHighlight
+import com.google.accompanist.placeholder.material.fade
+import com.google.accompanist.placeholder.material.placeholder
 import com.medium.pagination.domain.RecipeModel
 
 @Composable
@@ -64,7 +67,7 @@ fun MainScreen(
             items = recipes,
             key = { it.id }
         ) {
-            it?.let { RecipeRow(recipeModel = it) }
+            RecipeRow(recipeModel = it)
         }
         when (val state = recipes.loadState.append) {
             is LoadState.NotLoading -> Unit
@@ -80,7 +83,7 @@ fun MainScreen(
 
 @Composable
 private fun RecipeRow(
-    recipeModel: RecipeModel
+    recipeModel: RecipeModel?
 ) {
     Spacer(modifier = Modifier.height(8.dp))
     Card(
@@ -94,19 +97,38 @@ private fun RecipeRow(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Image(
-                painter = rememberAsyncImagePainter(recipeModel.thumbnailUrl),
-                contentDescription = recipeModel.thumbnailAltText,
-                modifier = Modifier.size(64.dp)
+                painter = rememberAsyncImagePainter(recipeModel?.thumbnailUrl),
+                contentDescription = recipeModel?.thumbnailAltText ?: "",
+                modifier = Modifier
+                    .placeholder(
+                        visible = recipeModel == null,
+                        highlight = PlaceholderHighlight.fade(),
+                    )
+                    .size(64.dp)
             )
             Spacer(modifier = Modifier.width(16.dp))
-            Column {
+            Column(
+                modifier = Modifier.weight(1f)
+            ) {
                 Text(
-                    text = recipeModel.name,
+                    text = recipeModel?.name ?: "",
+                    modifier = Modifier
+                        .placeholder(
+                            visible = recipeModel == null,
+                            highlight = PlaceholderHighlight.fade(),
+                        )
+                        .fillMaxWidth()
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    text = recipeModel.getRating(),
-                    style = MaterialTheme.typography.caption
+                    text = recipeModel?.getRating() ?: "",
+                    style = MaterialTheme.typography.caption,
+                    modifier = Modifier
+                        .placeholder(
+                            visible = recipeModel == null,
+                            highlight = PlaceholderHighlight.fade(),
+                        )
+                        .fillMaxWidth()
                 )
             }
         }

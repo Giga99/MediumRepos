@@ -84,6 +84,9 @@ dependencies {
     // Coil
     implementation "io.coil-kt:coil-compose:$coilVersion"
 
+    // Accompanist
+    implementation "com.google.accompanist:accompanist-placeholder-material:$accompanistPlaceholderVersion"
+
     // Paging 3
     implementation "androidx.paging:paging-compose:$pagingVersion"
 }
