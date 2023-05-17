@@ -74,6 +74,6 @@ Demo application that shows how to implement Swipe-to-Refresh and Placeholders i
 
 Demo application that shows how to implement Pagination in Jetpack Compose
 
-[Article link]()
+[Article link](https://medium.com/better-programming/jetpack-compose-pagination-287ea6e782e3)
 
 [Code](https://github.com/Giga99/MediumRepos/tree/main/pagination)
