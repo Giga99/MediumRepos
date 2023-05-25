@@ -11,6 +11,7 @@
 > * [Jetpack Compose Clean Navigation](#navigation)
 > * [Jetpack Compose Swipe to Refresh](#swipe-to-refresh)
 > * [Jetpack Compose Pagination](#pagination)
+> * [Jetpack Compose: Clean and Encapsulated Composables](#encapsulated-composables)
 
 
 ## Permissions
@@ -77,3 +78,11 @@ Demo application that shows how to implement Pagination in Jetpack Compose
 [Article link](https://medium.com/better-programming/jetpack-compose-pagination-287ea6e782e3)
 
 [Code](https://github.com/Giga99/MediumRepos/tree/main/pagination)
+
+## Encapsulated Composables
+
+Demo application that shows encapsulated composables example in Jetpack Compose
+
+[Article link](https://medium.com/dev-genius/jetpack-compose-clean-and-encapsulated-composables-2dc042b423ec)
+
+[Code](https://github.com/Giga99/MediumRepos/tree/main/encapsulatedcomposables)
