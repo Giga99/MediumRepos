@@ -12,6 +12,7 @@
 > * [Jetpack Compose Swipe to Refresh](#swipe-to-refresh)
 > * [Jetpack Compose Pagination](#pagination)
 > * [Jetpack Compose: Clean and Encapsulated Composables](#encapsulated-composables)
+> * [Jetpack Compose List Sticky Header](#list-sticky-header)
 
 
 ## Permissions
@@ -86,3 +87,11 @@ Demo application that shows encapsulated composables example in Jetpack Compose
 [Article link](https://medium.com/dev-genius/jetpack-compose-clean-and-encapsulated-composables-2dc042b423ec)
 
 [Code](https://github.com/Giga99/MediumRepos/tree/main/encapsulatedcomposables)
+
+## List Sticky Header
+
+Demo application that shows list sticky header example in Jetpack Compose
+
+[Article link]()
+
+[Code](https://github.com/Giga99/MediumRepos/tree/main/liststickyheader)
