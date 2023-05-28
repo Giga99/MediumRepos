@@ -94,4 +94,4 @@ Demo application that shows list sticky header example in Jetpack Compose
 
 [Article link]()
 
-[Code](https://github.com/Giga99/MediumRepos/tree/main/liststickyheader)
+[Code](https://github.com/Giga99/MediumRepos/tree/main/liststickyheaders)
