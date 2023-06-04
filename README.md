@@ -92,6 +92,6 @@ Demo application that shows encapsulated composables example in Jetpack Compose
 
 Demo application that shows list sticky header example in Jetpack Compose
 
-[Article link]()
+[Article link](https://blog.devgenius.io/jetpack-compose-list-sticky-header-162e9cceb1a8)
 
 [Code](https://github.com/Giga99/MediumRepos/tree/main/liststickyheaders)
