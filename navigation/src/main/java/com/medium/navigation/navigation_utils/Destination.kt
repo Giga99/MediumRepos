@@ -11,22 +11,29 @@ sealed class Destination(protected val route: String, vararg params: String) {
         operator fun invoke(): String = route
     }
 
-    object HomeScreen : NoArgumentsDestination("home")
+    object HomeScreen : NoArgumentsDestination(HOME_ROUTE)
 
-    object UsersScreen : NoArgumentsDestination("users")
+    object UsersScreen : NoArgumentsDestination(USERS_ROUTE)
 
-    object MessagesScreen : NoArgumentsDestination("messages")
+    object MessagesScreen : NoArgumentsDestination(MESSAGES_ROUTE)
 
-    object DetailsScreen : NoArgumentsDestination("details")
+    object DetailsScreen : NoArgumentsDestination(DETAIL_ROUTE)
 
-    object UserDetailsScreen : Destination("user_details", "firstName", "lastName") {
-        const val FIST_NAME_KEY = "firstName"
-        const val LAST_NAME_KEY = "lastName"
-
+    object UserDetailsScreen : Destination(USER_DETAIL_ROUTE, FIST_NAME_KEY, LAST_NAME_KEY) {
         operator fun invoke(fistName: String, lastName: String): String = route.appendParams(
             FIST_NAME_KEY to fistName,
             LAST_NAME_KEY to lastName
         )
+    }
+
+    companion object {
+        private const val HOME_ROUTE = "home"
+        private const val USERS_ROUTE = "users"
+        private const val MESSAGES_ROUTE = "messages"
+        private const val DETAIL_ROUTE = "details"
+        private const val USER_DETAIL_ROUTE = "user_details"
+        private const val FIST_NAME_KEY = "firstName"
+        private const val LAST_NAME_KEY = "lastName"
     }
 }
 
