@@ -13,11 +13,12 @@
 > * [Jetpack Compose Pagination](#pagination)
 > * [Jetpack Compose: Clean and Encapsulated Composables](#encapsulated-composables)
 > * [Jetpack Compose List Sticky Header](#list-sticky-header)
+> * [Jetpack Compose Custom Hideable Bottom Sheet](#custom-hideable-bottom-sheet)
 
 
 ## Permissions
 
-Demo application that shows how to request permissions in two different ways, by using default built in features and by using accompanist library
+The demo application that shows how to request permissions in two different ways, by using default built-in features and by using accompanist library
 
 [Article link](https://medium.com/@igorstevanovic99/jetpack-compose-request-permissions-in-two-ways-fd81c4a702c)
 
@@ -25,7 +26,7 @@ Demo application that shows how to request permissions in two different ways, by
 
 ## ViewPager
 
-Demo application that shows how to implement ViewPager in Jetpack Compose by using the accompanist library
+The demo application that shows how to implement ViewPager in Jetpack Compose by using the accompanist library
 
 [Article link](https://betterprogramming.pub/implement-horizontal-and-vertical-viewpager-in-jetpack-compose-a7a91f2ac746)
 
@@ -33,7 +34,7 @@ Demo application that shows how to implement ViewPager in Jetpack Compose by usi
 
 ## Interceptors
 
-Demo application that shows how you can use OkHttp Interceptors to add and refresh access token
+The demo application that shows how you can use OkHttp Interceptors to add and refresh an access token
 
 [Article link](https://betterprogramming.pub/android-access-token-logic-with-retrofit-okhttp-interceptors-740ea48547a0)
 
@@ -41,7 +42,7 @@ Demo application that shows how you can use OkHttp Interceptors to add and refre
 
 ## BottomSheet
 
-Demo application that shows how to implement BottomSheet in Jetpack Compose
+The demo application that shows how to implement BottomSheet in Jetpack Compose
 
 [Article link](https://betterprogramming.pub/implement-bottom-sheet-in-jetpack-compose-d6472e8eaf2e)
 
@@ -49,7 +50,7 @@ Demo application that shows how to implement BottomSheet in Jetpack Compose
 
 ## Maps
 
-Demo application that shows how to implement GoogleMaps in Jetpack Compose
+The demo application that shows how to implement GoogleMaps in Jetpack Compose
 
 [Article link](https://medium.com/p/c2710a226af2#6f49-9d05d20af70b)
 
@@ -58,7 +59,7 @@ Demo application that shows how to implement GoogleMaps in Jetpack Compose
 
 ## Navigation
 
-Demo application that shows how to implement Clean Navigation in Jetpack Compose
+The demo application that shows how to implement Clean Navigation in Jetpack Compose
 
 [Article link](https://betterprogramming.pub/jetpack-compose-clean-navigation-94b386f7a076)
 
@@ -66,7 +67,7 @@ Demo application that shows how to implement Clean Navigation in Jetpack Compose
 
 ## Swipe-to-Refresh
 
-Demo application that shows how to implement Swipe-to-Refresh and Placeholders in Jetpack Compose
+The demo application that shows how to implement Swipe-to-Refresh and Placeholders in Jetpack Compose
 
 [Article link](https://betterprogramming.pub/jetpack-compose-swipe-to-refresh-1d93775970e8)
 
@@ -74,7 +75,7 @@ Demo application that shows how to implement Swipe-to-Refresh and Placeholders i
 
 ## Pagination
 
-Demo application that shows how to implement Pagination in Jetpack Compose
+The demo application that shows how to implement Pagination in Jetpack Compose
 
 [Article link](https://medium.com/better-programming/jetpack-compose-pagination-287ea6e782e3)
 
@@ -82,7 +83,7 @@ Demo application that shows how to implement Pagination in Jetpack Compose
 
 ## Encapsulated Composables
 
-Demo application that shows encapsulated composables example in Jetpack Compose
+The demo application that shows encapsulated composables example in Jetpack Compose
 
 [Article link](https://medium.com/dev-genius/jetpack-compose-clean-and-encapsulated-composables-2dc042b423ec)
 
@@ -90,8 +91,16 @@ Demo application that shows encapsulated composables example in Jetpack Compose
 
 ## List Sticky Header
 
-Demo application that shows list sticky header example in Jetpack Compose
+The demo application that shows a list sticky header example in Jetpack Compose
 
 [Article link](https://blog.devgenius.io/jetpack-compose-list-sticky-header-162e9cceb1a8)
 
 [Code](https://github.com/Giga99/MediumRepos/tree/main/liststickyheaders)
+
+## Custom Hideable Bottom Sheet
+
+The demo application that shows how to create a custom hideable bottom sheet in Jetpack Compose
+
+[Article link]()
+
+[Code](https://github.com/Giga99/MediumRepos/tree/main/custombottomsheet)
